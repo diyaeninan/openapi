@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "adc4cd63-1822-4bdb-9cc1-e79817c7c000",
+		"_postman_id": "cc067f38-1a5e-4afe-bf55-e8ed45443635",
 		"name": "Test",
 		"description": "Buy or rent spacecrafts",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "173406-adc4cd63-1822-4bdb-9cc1-e79817c7c000"
+		"_uid": "173406-cc067f38-1a5e-4afe-bf55-e8ed45443635"
 	},
 	"item": [
 		{
@@ -15,7 +15,7 @@
 					"item": [
 						{
 							"name": "Read a spacecraft",
-							"id": "5cc67a2a-8c85-4722-8c17-a55776dbe645",
+							"id": "e62a4b1e-b909-4db1-8024-ae74fbf6d02f",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
@@ -38,7 +38,6 @@
 									],
 									"variable": [
 										{
-											"id": "3cf8f8fe-b044-4bde-bd04-3c712bebca99",
 											"key": "spacecraftId",
 											"value": "<string>"
 										}
@@ -47,7 +46,7 @@
 							},
 							"response": [
 								{
-									"id": "d1535464-8524-422f-a5e3-3dc647c7a30f",
+									"id": "016cfaf2-b90f-42bb-8810-1ff540f0c3dc",
 									"name": "The spacecraft corresponding to the provided `spacecraftId`",
 									"originalRequest": {
 										"method": "GET",
@@ -68,7 +67,6 @@
 											],
 											"variable": [
 												{
-													"id": "3cf8f8fe-b044-4bde-bd04-3c712bebca99",
 													"key": "spacecraftId",
 													"value": "<string>"
 												}
@@ -78,6 +76,7 @@
 									"status": "OK",
 									"code": 200,
 									"_postman_previewlanguage": "json",
+									"_postman_previewtype": "html",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -88,7 +87,7 @@
 									"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"<string>\",\n  \"type\": \"satellite\",\n  \"description\": \"<string>\"\n}"
 								},
 								{
-									"id": "c3106eb7-b9b8-4f49-a23d-d75f30180c9a",
+									"id": "afc08712-bbb3-4308-977e-bc27f20abe8d",
 									"name": "No spacecraft found for the provided `spacecraftId`",
 									"originalRequest": {
 										"method": "GET",
@@ -109,7 +108,6 @@
 											],
 											"variable": [
 												{
-													"id": "3cf8f8fe-b044-4bde-bd04-3c712bebca99",
 													"key": "spacecraftId",
 													"value": "<string>"
 												}
@@ -119,6 +117,7 @@
 									"status": "Not Found",
 									"code": 404,
 									"_postman_previewlanguage": "json",
+									"_postman_previewtype": "html",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -129,7 +128,7 @@
 									"body": "{\n  \"message\": \"<string>\"\n}"
 								},
 								{
-									"id": "3500f480-b738-453d-98fe-9685eda7a6f5",
+									"id": "d716baeb-1021-4192-bd60-7e3842dfeca1",
 									"name": "Unexpected error",
 									"originalRequest": {
 										"method": "GET",
@@ -150,7 +149,6 @@
 											],
 											"variable": [
 												{
-													"id": "3cf8f8fe-b044-4bde-bd04-3c712bebca99",
 													"key": "spacecraftId",
 													"value": "<string>"
 												}
@@ -160,6 +158,7 @@
 									"status": "Internal Server Error",
 									"code": 500,
 									"_postman_previewlanguage": "json",
+									"_postman_previewtype": "html",
 									"header": [
 										{
 											"key": "Content-Type",
@@ -172,10 +171,10 @@
 							]
 						}
 					],
-					"id": "cb45e410-322a-4653-a0af-0ac80e0fe2ee"
+					"id": "5dde6faa-3a00-4746-9713-f8c8bcf7f956"
 				}
 			],
-			"id": "a66ae004-b9f8-4616-a696-d8562df9f1e5"
+			"id": "af8d2d40-eccf-4684-b3c3-f74a9dafc8c0"
 		}
 	],
 	"auth": {
